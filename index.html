@@ -8,14 +8,15 @@
     <style>
         body {
             margin: 0;
-            padding: 0;
+            padding: 0;            
+            border: 1px solid;
         }
 
         .container {
             background: #EEEEE6;
             display: flex;
             flex-direction: column;
-            justify-self: center;
+            align-items: center;
             text-align: center;
             margin: 0;
             padding: 0;
@@ -28,12 +29,20 @@
         }
 
         .card {
-            width: 100%;
+            width: 380px;
             height: 100%;
         }
 
         .logo {
             margin-top: -80px;
+        }
+
+        .bloco1 {
+            background: #D1639E;
+            width: 29px;
+            height: 29px;
+            margin-bottom: -15px;
+            position: relative;
         }
     </style>
 </head>
@@ -46,6 +55,7 @@
             <h2 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">MARY LOPES</h2>
             <p style="margin-top: -15px;">CORPO E MENTE</p>
             <br><br><br>
+            <div class="bloco1"></div>
         </div>
         <div class="card">
             <img src="./foto.png" alt="imagem_terapeutica" class="terapeuta">
@@ -54,7 +64,7 @@
             <p style="margin-top: -15px;">CORPO E MENTE</p>
             <br><br><br>
         </div>
-        
     </div>      
+
 </body>
 </html>
